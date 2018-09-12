@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.spring.mybatis.dao.UserDao">
+
+    <insert id="addUser" parameterType="com.spring.mybatis.bean.User">
+        INSERT INTO user_test (
+        userid,
+        account,
+        user_name,
+        phone,
+        age,
+        sex
+        )
+        VALUES
+        (#{userid}, #{account}, #{userName}, #{phone}, #{age}, #{sex})
+    </insert>
+
+    <update id="updateUserById" parameterType="com.spring.mybatis.bean.User">
+        UPDATE user_test
+        SET account = #{account},user_name = #{userName},phone = #{phone},age = #{age},sex = #{sex}
+        WHERE userid = #{userid}
+    </update>
+
+    <delete id="deleteUserById" parameterType="string">
+        DELETE FROM user_test
+        WHERE userid = #{userid}
+    </delete>
+
+    <select id="getUserById" resultType="com.spring.mybatis.bean.User">
+        SELECT
+        userid,
+        account,
+        user_name AS userName,
+        phone,
+        age,
+        sex from user_test WHERE userid = #{userid}
+    </select>
+
+    <select id="getUserList" parameterType="com.spring.mybatis.bean.User" resultType="com.spring.mybatis.bean.User">
+        SELECT userid,
+        account,
+        user_name AS userName,
+        phone,
+        age,
+        sex from user_test
+         <where>
+             <if test="userName!=null and !''.equals(userName)">
+                 AND user_name LIKE concat(replace(replace(#{userName},'%','\%'),'_','\_'),'%')
+             </if>
+         </where>
+    </select>
+
+</mapper>
