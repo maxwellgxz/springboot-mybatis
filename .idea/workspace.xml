@@ -3,8 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="2d90609b-ac2d-4ffe-bcef-8bce8bc493be" name="Default" comment="去除文件">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spring/mybatis/SpringbootMybatisApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spring/mybatis/bean/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spring/mybatis/controller/TestController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spring/mybatis/controller/UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spring/mybatis/dao/UserDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spring/mybatis/service/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/spring/mybatis/service/impl/UserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/mapper/userMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis/mybatis-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/templates/user/addUser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/templates/user/editUser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/templates/user/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/user_test.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/spring/mybatis/SpringbootMybatisApplicationTests.class" afterPath="" />
     </list>
     <ignored path="springboot-mybatis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -131,6 +145,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="guo_xingzhang@163.com &lt;nbaisino@123.com&gt;" />
         <option value="maxwellgxz" />
       </list>
     </option>
@@ -240,20 +255,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="springboot-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springboot-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springboot-mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -977,12 +978,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536725731266</updated>
-      <workItem from="1536725733212" duration="16956000" />
+      <workItem from="1536725733212" duration="17034000" />
     </task>
+    <task id="LOCAL-00001" summary="去除文件">
+      <created>1536745142101</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536745142101</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16956000" />
+    <option name="totallyTimeSpent" value="17034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
